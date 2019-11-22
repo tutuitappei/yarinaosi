@@ -120,13 +120,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Scene\GameScene.cpp" />
+    <ClCompile Include="Scene\SceneMng.cpp" />
+    <ClCompile Include="Scene\BaseScene.cpp" />
     <ClCompile Include="Common\ImageMng.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Scene\Title.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Scene\GameScene.h" />
+    <ClInclude Include="Scene\SceneMng.h" />
+    <ClInclude Include="Scene\BaseScene.h" />
     <ClInclude Include="Common\details\Vector2.h" />
     <ClInclude Include="Common\ImageMng.h" />
     <ClInclude Include="Common\Vector2.h" />
+    <ClInclude Include="Scene\Title.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
